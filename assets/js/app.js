@@ -1,4 +1,4 @@
-$ ( document ).on ( "click", "#image", function () {
+$ ( document ).on ( "click", ".image", function () {
 	
 	var content_div = $(this).data('content_number');
 	
