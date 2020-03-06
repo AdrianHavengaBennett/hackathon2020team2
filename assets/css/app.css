@@ -6,6 +6,25 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    background-color: #eee;
 
 }
+
+.jumbotron{
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+
+/* .timeline{
+    position: relative;
+    width: 5px;
+    height: 95%;
+    left: 50%;
+   
+} */
+
 
