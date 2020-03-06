@@ -13,7 +13,8 @@ function create_keyboard (  ) {
 	$.each(alphabhed, function(key,value)
 	{
 		$('#keyboard').append(`<span class="img-thumbnail alphabet_letter" data-letter="${value}">${value}</span>`);
-	})
+	});
+	$('#keyboard').append(`<span class="img-thumbnail alphabet_letter" id="clear">clear</span>`);
 	
 }
 create_keyboard();
@@ -24,4 +25,8 @@ $ ( document ).on ( "click", ".alphabet_letter", function () {
 	$('#screen').append(`<span class="img-thumbnail " >${letter}</span>`);
 	
 	
+});
+$ ( document ).on ( "click", "#clear", function () {
+	
+	$('#screen').html('');
 });
