@@ -1,26 +1,11 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=Chakra+Petch:400,700&display=swap');
 
-/* font-family: 'Chakra Petch', sans-serif; */
-
-body{
-    margin: 0;
-    padding: 0;
-}
-
-.timeline{
-
-}
-
-.timeline-cards{
-
-}
-
-.timeline-item{
-    
-}
-=======
 .alphabet_letter{
 	cursor: pointer;
 	}
->>>>>>> fa064ec3944ce9c0569768b59200916d638a35e7
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
